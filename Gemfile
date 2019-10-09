@@ -41,7 +41,6 @@ group :development, :test do
   gem 'sqlite3', '1.4.1'
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', '11.0.1', platforms: [:mri, :mingw, :x64_mingw]  # Adds support for Capybara system testing and selenium driver
-  gem 'capybara', '~> 2.13'
 
 end
 
